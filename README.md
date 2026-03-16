@@ -87,6 +87,7 @@ demo = gr.Interface(fn=captioner,
 demo.launch(share=True, server_port=int(os.environ['PORT1']))
 ```
 ### OUTPUT:
+![image alt](https://github.com/MohanKrishnaJ/genai-image-captioning-blip/blob/67bce6017e5f7ecd5d0c85b5cd3040b5e2bcd248/Screenshot%202026-03-16%20160821.png)
 
 ### RESULT:
 The application successfully generates high-quality images based on user-provided text prompts. The Stable Diffusion model ensures visually appealing results, and the Gradio interface makes it accessible and interactive.
